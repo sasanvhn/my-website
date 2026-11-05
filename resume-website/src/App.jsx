@@ -8,7 +8,7 @@ const GITHUB = 'https://github.com/sasanvhn';
 const LINKEDIN = 'https://www.linkedin.com/in/sasan-vahidinia/';
 
 function Arrow() {
-  return <span className="arrow" aria-hidden="true">↗</span>;
+  return <svg className="arrow" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M8 5h11v11" /></svg>;
 }
 
 function Header() {
