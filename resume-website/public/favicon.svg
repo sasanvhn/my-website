@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#101819"/>
-  <text x="9" y="42" fill="#d8ebd7" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="-3">SV</text>
-  <circle cx="53" cy="44" r="4" fill="#a5d5aa"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="SV favicon">
+  <rect width="96" height="96" rx="18" fill="#101819"/>
+  <path d="M47 22H29C20 22 15 27 15 34C15 42 21 47 30 47H37C46 47 51 52 51 60C51 69 45 74 36 74H18" fill="none" stroke="#f0f4ee" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M57 23L69 72L82 23" fill="none" stroke="#afd6b7" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

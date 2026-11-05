@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="112" viewBox="0 0 520 112" role="img" aria-label="Sasan Vahidinia logo">
+  <g transform="translate(4 5)">
+    <path d="M47 22H29C20 22 15 27 15 34C15 42 21 47 30 47H37C46 47 51 52 51 60C51 69 45 74 36 74H18" fill="none" stroke="#203d2c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M57 23L69 72L82 23" fill="none" stroke="#4e8d63" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="123" y="56" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="600" letter-spacing="-1.5" fill="#203d2c">Sasan Vahidinia</text>
+  <text x="125" y="81" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#4e8d63">SOFTWARE  /  DATA  /  PRACTICAL IT</text>
+</svg>

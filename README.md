@@ -10,7 +10,7 @@ The application lives in **resume-website/**.
 - resume-website/src/content.js — projects, roles, education and skills
 - resume-website/src/index.css — typography, layout, project illustrations and responsive styles
 - resume-website/index.html — SEO and social metadata
-- resume-website/public/ — favicon, robots.txt, sitemap, social image
+- resume-website/public/ — scalable SVG logo variants, favicon, robots.txt, sitemap, social image
 
 ## Run locally
 

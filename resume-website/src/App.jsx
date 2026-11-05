@@ -19,7 +19,7 @@ function Header() {
     <header className="site-header">
       <div className="container header-content">
         <a className="brand" href="#top" onClick={closeMenu} aria-label="Sasan Vahidinia, back to top">
-          <span className="brand-mark">SV<span>.</span></span>
+          <span className="brand-mark"><img src="/logo-mark-dark.svg" alt="" width="44" height="44" /></span>
           <span className="brand-name">Sasan Vahidinia</span>
         </a>
         <button
@@ -230,7 +230,7 @@ function Footer() {
           <div><p className="micro-label">04 / CONTACT</p><h2>Have something<br /><em>worth working on?</em></h2></div>
           <div className="footer-message"><p>I’m open to working-student jobs, internships, research-assistant positions and practical software, data or IT work in Germany.</p><a className="footer-contact-link" href={EMAIL}>Let’s talk <Arrow /></a><a className="email-address" href={EMAIL}>vahidinia.sasan@gmail.com</a></div>
         </div>
-        <div className="footer-bottom"><span>© {new Date().getFullYear()} Sasan Vahidinia</span><span>Hannover, Germany</span><div><a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub <Arrow /></a><a href={LINKEDIN} target="_blank" rel="noopener noreferrer">LinkedIn <Arrow /></a><a href="#top">Back to top ↑</a></div></div>
+        <div className="footer-bottom"><span className="footer-identity"><img src="/logo-mark-dark.svg" alt="" width="30" height="30" /> © {new Date().getFullYear()} Sasan Vahidinia</span><span>Hannover, Germany</span><div><a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub <Arrow /></a><a href={LINKEDIN} target="_blank" rel="noopener noreferrer">LinkedIn <Arrow /></a><a href="#top">Back to top ↑</a></div></div>
       </div>
     </footer>
   );
