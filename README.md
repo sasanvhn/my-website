@@ -1,27 +1,49 @@
-# 📄 my-resume  .
+# Sasan Vahidinia — personal portfolio
 
-🚀 Welcome to **my-resume**, the one and only place where my projects, skills, and experience live online!  
-If you ever wondered, *"What has Sasan been up to?"*—well, this is it.  
+A personal portfolio built with React and Vite. This revision focuses on specific work, readable design and accurate descriptions instead of generic developer-portfolio copy.
 
-## 🛠️ Built With  
-- ⚛️ **React**  
-- 🎨 **TailwindCSS**  
-- ⚡ **Vite**  
+## Project structure
 
-## 📂 What's Inside?  
-- **Projects**
-- **Experience**
-- **Skills**
-- **Contact**  
+The application lives in **resume-website/**.
 
-## 📑 Want to Read My Resume?  
-You can find my full resume **right here**:  
-📎 [SasanVahidiniaResume.pdf](./SasanVahidiniaResume.pdf)  
+- resume-website/src/App.jsx — page sections, navigation and contact links
+- resume-website/src/content.js — projects, roles, education and skills
+- resume-website/src/index.css — typography, layout, project illustrations and responsive styles
+- resume-website/index.html — SEO and social metadata
+- resume-website/public/ — scalable SVG logo variants, favicon, robots.txt, sitemap, social image
 
-## 🚀 Running the Project  
-Wanna run this locally? Easy.  
-```sh
-git clone https://github.com/your-username/my-resume.git
-cd my-resume
-npm install
+## Run locally
+
+Node.js 20+ is recommended.
+
+```bash
+cd resume-website
+npm ci
+npm run lint
+npm run build
 npm run dev
+```
+
+## Deployment
+
+For Vercel, set the root directory to **resume-website**, framework to **Vite**, build command to `npm run build`, and output directory to `dist`.
+
+The canonical, sitemap and Open Graph URLs in this version use `https://sasan-vahidinia.vercel.app/`. If the production domain changes, update them before publication.
+
+## Content safeguards
+
+- All dates and positions are based on the supplied approved CVs.
+- The EEG classification project is explicitly described as a five-person team effort.
+- PIAGAST content describes technical responsibilities at a general level; there are no internal endpoints, order records or admin screens.
+- The site does not claim freelance work or unverified performance results.
+- No phone number, immigration information or private restaurant details are published.
+- The portraits and the Flutter hotel-app screenshot were kept from the original repository.
+- PIAGAST, EEG and formatting-checker visuals are conceptual illustrations, **not fabricated screenshots or research results**.
+
+## Before merging
+
+Please check the final wording, especially whether the official name of the Flutter internship laboratory and the public PIAGAST descriptions are correct. If you have approved PIAGAST media or an EEG research figure, it can replace the conceptual art later.
+
+Run the application on desktop and mobile in a browser. The GitHub pull request includes automated lint/build checks, but visual QA is still needed.
+
+No live deployment or LinkedIn changes are part of this branch.

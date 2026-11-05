@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sasan-vahidinia.vercel.app/sitemap.xml
